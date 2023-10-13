@@ -49,6 +49,18 @@ create a file named `.pre-commit-config.yaml` (in your repository)
 
 - You can merge if checks OK
 
+### pre-commit-terraform
+
+- as a new step we can add pre-commit-terraform (https://github.com/antonbabenko/pre-commit-terraform)
+
+- first we can add configuration to pre-commit-config.yaml file
+
+- and we need to install terraform_docs (https://github.com/terraform-docs/terraform-docs)
+
+- on windows machine (choco install terraform-docs)
+
+- (terraform-docs adds documantation of the tf files to the README file)
+
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
